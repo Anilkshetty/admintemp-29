@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/pen.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.row .input-field input:focus {
+    border-bottom: 1px solid rgb(248, 44, 146) !important;
+    box-shadow: 0 1px 0 0 rgb(248, 44, 146) !important;
+  }
+  .myformcontainer
+  {
+      width:60%;
+      margin:auto;
+  }
+  .mycontainer
+  {
+      width:90%;
+      margin:auto;
+  }
+  .input-field
+  {
+      color:blue;
+  }
+  @media only screen and (max-width: 768px) {
+    .wt {
+        width:100%;
+    }
+    .myformcontainer
+    {
+        width:90%;
+        margin:auto;
+    }
+}
